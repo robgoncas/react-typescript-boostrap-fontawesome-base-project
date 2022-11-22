@@ -5,6 +5,8 @@ import './App.css';
 import Customer from './components/Customer';
 import Collaborator from './components/Collaborator';
 import Counter from './components/Counter';
+import Grettings from './components/Grettings';
+
 
 //Classes
 import {CustomerClass} from './components/CustomerClass';
@@ -31,6 +33,11 @@ function App() {
           >
             Learn React
           </a>
+        </div>
+        <div className="row">
+          <div className="col">
+            <Grettings/>
+          </div>
         </div>
         <div className="row">
           <div className="col">
