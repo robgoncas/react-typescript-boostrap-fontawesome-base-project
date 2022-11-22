@@ -31,7 +31,7 @@ export class CollaboratorClass extends React.Component<IProps,IState>{
                     <li className="list-group-item">Title: {this.state.title}</li>
                 </ul>
 
-                <h3 className="mt-4">Collaborator Class Component 2nd Accesing way to the state</h3>
+                <h3 className="mt-4">Collaborator Class Component 2nd Accesing way to the local state variable</h3>
                 <ul className="list-group">
                     <li className="list-group-item">Name: {name}</li>
                     <li className="list-group-item">Age: {age}</li>
