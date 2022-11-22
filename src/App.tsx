@@ -4,9 +4,12 @@ import logo from './logo.svg';
 import './App.css';
 import Customer from './components/Customer';
 import Collaborator from './components/Collaborator';
+import Counter from './components/Counter';
+
 //Classes
 import {CustomerClass} from './components/CustomerClass';
 import {CollaboratorClass} from './components/CollaboratorClass';
+
 
 
 
@@ -62,6 +65,11 @@ function App() {
           <div className="col">
             <CollaboratorClass>
             </CollaboratorClass>
+          </div>
+        </div>
+        <div className="row mt-4">
+          <div className="col">
+            <Counter/>
           </div>
         </div>
        
