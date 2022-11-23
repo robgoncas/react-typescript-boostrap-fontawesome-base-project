@@ -6,6 +6,8 @@ import Customer from './components/Customer';
 import Collaborator from './components/Collaborator';
 import Counter from './components/Counter';
 import Grettings from './components/Grettings';
+import LoginForm from './components/LoginForm';
+
 
 
 //Classes
@@ -77,6 +79,11 @@ function App() {
         <div className="row mt-4">
           <div className="col">
             <Counter/>
+          </div>
+        </div>
+        <div className="row mt-4">
+          <div className="col">
+            <LoginForm/>
           </div>
         </div>
        
