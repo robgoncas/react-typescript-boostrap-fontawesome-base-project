@@ -7,6 +7,8 @@ import Collaborator from './components/Collaborator';
 import Counter from './components/Counter';
 import Grettings from './components/Grettings';
 import LoginForm from './components/LoginForm';
+import UserList from './components/UserList';
+
 
 
 
@@ -86,10 +88,12 @@ function App() {
             <LoginForm/>
           </div>
         </div>
-       
+        <div className="row mt-4">
+          <div className="col">
+            <UserList/>
+          </div>
+        </div>
       </div>
-
-
     </div>
   );
 }

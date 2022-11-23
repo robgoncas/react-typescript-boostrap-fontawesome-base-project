@@ -3,7 +3,6 @@ import React, {useState} from 'react';
 import {IUser} from '../models/IUser';
 
 interface IProps {}
-
 interface IState{
     user: IUser
 }
@@ -59,7 +58,6 @@ let LoginForm:React.FC<IProps> = () => {
                         </div>     
                     </div>
                     <div className="col-4"></div>
-
                 </div>
             </div>
         </React.Fragment>
