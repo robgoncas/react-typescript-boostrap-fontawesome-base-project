@@ -8,6 +8,8 @@ import Counter from './components/Counter';
 import Grettings from './components/Grettings';
 import LoginForm from './components/LoginForm';
 import UserList from './components/UserList';
+import AxiosUsers from './components/AxiosUsers';
+
 
 
 
@@ -93,6 +95,11 @@ function App() {
             <UserList/>
           </div>
         </div>
+        <div className="row mt-4">
+          <div className="col">
+          <AxiosUsers/>
+          </div>
+          </div>
       </div>
     </div>
   );
