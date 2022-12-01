@@ -5,17 +5,17 @@ interface IState{
 }
 
 
-let NavBar:React.FC = () => {
+let PageNotFound:React.FC = () => {
 
     let[state, setState] = useState<IState>({
         count: 0
     });
     return(
         <React.Fragment>
-        <h3>NavBar Component</h3>
+        <h3>PageNotFound Component</h3>
         </React.Fragment>
 
     )
 }
 
-export default NavBar;
+export default PageNotFound;
